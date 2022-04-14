@@ -1,18 +1,19 @@
 <template>
-    <Navbar />
+   <Navbar />
+    
 </template>
 
 <script>
 import Navbar from "../components/Navbar.vue"
 export default {
-    name: 'About',
+    name: 'Services',
     mounted(){
-        document.title = 'About | Packnmoove.com.ng'
+        document.title = 'Services | Packnmoove.com.ng'
     },
 
     components: {
       Navbar
-    }    
+    },    
 }
 </script>
 
